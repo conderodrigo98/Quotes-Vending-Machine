@@ -1,0 +1,75 @@
+
+
+body{
+  background-color:#55F760;
+  transition: background-color 1s;
+}
+
+.marco{
+  margin:2% 20% 10% 20%;
+  background-color:#97F99D;
+  transition: background-color 1s, width 1s, height 1s;
+  border-radius:4px;
+}
+
+h1{
+  text-align:center;
+  padding:15% 1% 1% 1%;
+  color:#009B0A;
+  font-family:"La Belle Aurore";
+  font-size:3em;
+  transition: color 1s;
+}
+
+h2{
+  text-align:center;
+  padding:5% 1% 1% 1%;
+  color:#116416;
+  font-family:"La Belle Aurore";
+  font-size:2em;
+  transition: color 1s;
+}
+
+h3{
+  text-align:right;
+  padding: 0% 4% 1% 0%;
+  color:#116416;
+  font-family:"La Belle Aurore";
+  font-size:2em;
+  transition: color 1s;
+}
+
+#tweet{
+  color:#fff;
+  font-size:1em;
+  background-color:#00F610;
+  margin: 0% 0% 2% 15%;
+  transition: background-color 1s, font-size 0.5s, box-shadow 0.5s;
+}
+
+#newQuote{
+  color:#fff;
+  font-size:1em;
+  background-color:#00F610;
+  margin: 0% 2% 2% 15%;
+  transition: background-color 1s, font-size 0.5s, box-shadow 0.5s;
+}
+
+
+/* arregla el tamaño en pantallas celulares*/
+@media only screen and (max-width:480px){
+  .marco{
+    margin:auto;
+    padding-right:5%;
+    min-width:95%;
+  }
+}
+
+/*agrega efectos a los botones solo para compus*/
+@media only screen and (min-width:480px){
+  .btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  font-size: 1.33em !important;
+  cursor: pointer;
+}
+}
